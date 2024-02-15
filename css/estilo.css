@@ -1,0 +1,33 @@
+#menu {
+    background-color: blanchedalmond;
+    width: 400px;
+    height: auto;
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    background-color: red;
+    color: black;
+    float: left;
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px; /* centralizar verticalmente */
+}
+
+#menu li a {
+    background: green;
+    width: 80px;
+    height: 100px;
+    display: block;
+    text-decoration: none; /* especifico para links (tag <a>) */
+}
+
+#menu li a:hover {
+    background: linear-gradient(blue, white, darkblue);
+    width: 85px;
+    border: 1px solid yellow;
+    box-shadow: 1px 1px 5px yellow;
+}
