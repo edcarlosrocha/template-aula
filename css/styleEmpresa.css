@@ -33,8 +33,10 @@ body{
 
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     font-size: 13px;
+    background-color: green;
+    margin-left: 5px;
 
 }
 
@@ -53,13 +55,19 @@ body{
     transform: scale(1.05);
     transform: 1s;
     
-    
 
 }
 
 hr{
 
     margin-top: 20px;
+
+}
+
+#menuzinho {
+
+    background-color: yellow;
+    display: inline-block;
     
 
 }
